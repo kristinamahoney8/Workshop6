@@ -1,7 +1,7 @@
 function reverseString(str) {
   var reversed = "";
-  for (var i = 1; i < str.length; i++) {
-    reversed += str[str.length - i];
+  for (var i = str.length-1; i >= 0; i--) {
+    reversed += str[i];
   }
   return reversed;
 }
